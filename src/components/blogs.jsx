@@ -1,4 +1,4 @@
-import { Blogs } from "./Blogs";
+import { blogsArray } from "./blogsArray";
 
 export const Blog = () => {
   return (
@@ -8,7 +8,7 @@ export const Blog = () => {
         <p className="text-[white] text-[39.8px]">Latest Blogs & Posts</p>
       </div>
       <div className="flex items-center mt-16 gap-11">
-        {Blogs.map((item, i) => (
+        {blogsArray.map((item, i) => (
           <div key={i} className="w-[100%] items-center">
             <div className="h-[240px] w-[340px]">
               <img
@@ -20,7 +20,7 @@ export const Blog = () => {
             <p className="text-white text-[27.6px] w-[340px] mt-5">{item.topic}</p>
             <p className="text-[16px] w-[340px] text-[#D4D4D4]">{item.content}</p>
             <div className="w-[100%] mt-3 h-[50px] flex justify-end">
-              <img className="w-[50px] h-[50px] hover:cursor-pointer" src="/public/Group 33.svg" alt="" />
+              {/* <img className="w-[50px] h-[50px] hover:cursor-pointer" src="/public/Group 33.svg" alt="" /> */}
             </div>
           </div>
         ))}

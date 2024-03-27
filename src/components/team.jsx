@@ -2,7 +2,7 @@ import { teamArray } from "./teamarray";
 
 const Team = () => {
   return (
-    <section className="flex justify-center items-center flex-col">
+    <section className="flex justify-center items-center flex-col ">
       <div className="max-w-[90rem] w-full justify-center items-center text-center">
       
         <p className=" text-[#4361EE] text-xl font-medium uppercase">

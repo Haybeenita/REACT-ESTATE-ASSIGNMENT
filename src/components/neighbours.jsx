@@ -1,11 +1,14 @@
 
 
-export const Neighbours= () => {
+const Neighbours= () => {
   return (
     <div className=" flex flex-col items-center pb-32">
-      <div className="w-full max-w-[90rem] absolute mt-[70px] rounded-full rotate-45 bg-gradient-to-b from-[#4361EE99] to-[#4361EE00]"></div>
-      <div className="flex flex-col items-center mt-[200px] w-[1100px] pb-40">
+      <div className="absolute mt-[70px] rounded-full rotate-45 bg-gradient-to-b from-[#4361EE99] to-[#4361EE00]"></div>
+      <div className="flex flex-col items-center mt-[70px] w-[1100px] pb-36">
         <div className="w-[100%]">
+        <figure className="absolute top-30 right-20">
+            <img src="/eclipse2.svg" />
+        </figure>
           <p className="text-[19.4px] text-[#4361EE]">AREAS ACROSS THE TOWN</p>
           <p className="text-[39.8px] text-[#2B2B2B]">
             Neighborhood Properties
@@ -38,7 +41,7 @@ export const Neighbours= () => {
           <div className="h-[320px] rounded-[30px] w-[420px] overflow-hidden">
             <div className="flex flex-col mt-[180px] ml-16 absolute text-[white] bg-transparent">
               <p className="text-[57.3px]">212</p>
-              <p className="text-[19.4]">NHouston, TX</p>
+              <p className="text-[19.4]">San Diego, CA</p>
             </div>
             <img
               className="h-[320px] w-[420px] flex items-center justify-center"
@@ -76,3 +79,5 @@ export const Neighbours= () => {
     </div>
   );
 };
+
+export default Neighbours

@@ -5,11 +5,11 @@ import Navbar from './components/Navbar'
 import Services from './components/Services'
 import { TrustedBy } from './components/TrustedBy'
 import { WhoWeAre } from './components/WhoWeAre'
-// import { Blog } from './components/Blogs'
-import Neighbours from './components/neighbours'
-// import Team from './components/team'
-// import { Customers } from './components/customers'
-// import Footer from './components/Footer'
+import Neighbours from './components/Neighbours'
+import Team from './components/Team'
+import {Customers} from './components/Customers'
+import Footer from './components/Footer'
+// import { Blog } from './components/blogs'
 
 
 function App() {
@@ -25,13 +25,13 @@ function App() {
         <Hero/>
         <TrustedBy/>
         <WhoWeAre/>
-        <Latestproperties/>
-        <Services/>
+         <Latestproperties/> 
+         <Services/>
         <Neighbours/>
-        {/* <Team/>
-        <Blog/>
+        <Team/>
+       {/* <Blog/> */}
         <Customers/>
-        <Footer/> */}
+        <Footer/> 
        
       </main>
     </>
