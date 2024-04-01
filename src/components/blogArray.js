@@ -1,4 +1,4 @@
-const blogsArray = [
+export const BlogsArray = [
     {
         Date : 28,
         day : "Tue",
@@ -21,4 +21,3 @@ const blogsArray = [
         content : "In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.",
     },
 ]
-export default blogsArray

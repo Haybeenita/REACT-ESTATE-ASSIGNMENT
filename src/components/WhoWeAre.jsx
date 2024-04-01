@@ -3,7 +3,7 @@ import { SmartHome, User } from "../assets/icons";
 export function WhoWeAre() {
   return (
     <section className="flex justify-center item-center">
-      <div className="w-full max-w-[90rem] flex gap-36">
+      <div className="w-full max-w-[100%] items-center justify-center flex gap-36 mt-[9.375rem]">
         {renderLeftSide()}
         {renderRightSide()}
       </div>
@@ -30,7 +30,7 @@ function renderLeftSide() {
         </p>
       </div>
 
-      <div className="flex flex-col mt-10 border gap-7">
+      <div className="flex flex-col mt-10 gap-7">
         <div className="flex items-center justify-center w-[25rem] h-[8.25rem] p-8 gap-6 rounded-[2rem] shadow-[4px_10px_30px_0_rgba(0,0,0,0.06)]">
           <i className="flex items-center justify-center size-11">
             <SmartHome />
@@ -77,7 +77,7 @@ function renderRightSide() {
           <span className="overflow-hidden shadow-[4px_10px_30px_0_rgba(0,0,0,0.015)] flex items-center justify-center rounded-[2rem] border-purple-700  h-[11.25rem] w-[17.25rem]">
             <img src="/whoarewe3.jpeg" className="object-cover size-full" />
           </span>
-          <figure className="absolute bottom-7 right-13">
+          <figure className="absolute bottom-7 ml-[4rem]">
             <img src="/eclipse2.svg" />
           </figure>
         </aside>

@@ -3,12 +3,13 @@
 const Neighbours= () => {
   return (
     <div className=" flex flex-col items-center pb-32">
-      <div className="absolute mt-[70px] rounded-full rotate-45 bg-gradient-to-b from-[#4361EE99] to-[#4361EE00]"></div>
-      <div className="flex flex-col items-center mt-[70px] w-[1100px] pb-36">
-        <div className="w-[100%]">
-        <figure className="absolute top-30 right-20">
+      <div className="absolute mt-[70px] rounded-full rotate-45 bg-gradient-to-b from-[#4361EE99] to-[#4361EE00]">
+      </div>
+      <div className="flex flex-col items-center mt-[5rem] w-[1100px] pb-36">
+      <figure className="absolute mt-[0.1rem] ml-[0.5rem]">
             <img src="/eclipse2.svg" />
         </figure>
+        <div className="w-[100%]">
           <p className="text-[19.4px] text-[#4361EE]">AREAS ACROSS THE TOWN</p>
           <p className="text-[39.8px] text-[#2B2B2B]">
             Neighborhood Properties

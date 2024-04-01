@@ -35,7 +35,7 @@ const TopNavbar = () => {
 
 const BottomNavbar = () => {
   return (
-    <section className="flex items-center justify-center bg-white">
+    <section className="flex items-center justify-center bg-white sticky top-0 z-50">
       <nav className="w-full max-w-[90rem] flex px-24 py-4 justify-between">
         <ul className=" text-[#2B2B2B] flex items-center justify-center">
           <li className=" h-9 w-20 items-center justify-center flex text-base font-medium hover:bg-[rgba(67,97,238,0.3)] hover:rounded-full cursor-pointer">
@@ -61,17 +61,21 @@ const BottomNavbar = () => {
           <span className="text-[#1E1E1E] font-semibold text-xl">Rezilla</span>
         </div>
         <div className="flex items-center justify-center gap-5 ">
-          <a className="flex items-center justify-center gap-2.5"  href="#">
+          <a className="flex items-center justify-center gap-2.5" href="#">
             <div className="flex items-center justify-center size-5">
-                <img src="/user-profileicon.svg" alt="USER ICON" />
+              <img src="/user-profileicon.svg" alt="USER ICON" />
             </div>
-            <span className="text-[#2B2B2B] font-medium text-base">Login/Register</span>
+            <span className="text-[#2B2B2B] font-medium text-base">
+              Login/Register
+            </span>
           </a>
           <button className="h-12 flex items-center justify-center w-[10.5rem] gap-2.5 bg-[#03AEFD] rounded-[3rem]">
             <div className="flex items-center justify-center size-5">
-             <img  src="/houseicon.svg" alt="House icon" />
+              <img src="/houseicon.svg" alt="House icon" />
             </div>
-            <span className="text-white font-medium text-base">Add listing</span>
+            <span className="text-white font-medium text-base">
+              Add listing
+            </span>
           </button>
         </div>
       </nav>
@@ -79,12 +83,11 @@ const BottomNavbar = () => {
   );
 };
 
-
 const Navbar = () => {
   return (
     <div>
       <TopNavbar />
-      <BottomNavbar />
+      <BottomNavbar/>
     </div>
   );
 };

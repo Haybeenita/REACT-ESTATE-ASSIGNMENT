@@ -1,7 +1,7 @@
 import { houseArray } from "./Array";
 const Toplatest = () => {
   return (
-    <section className="flex gap-[25.75rem] w-[90rem]">
+    <section className="flex gap-[25.75rem] ">
       <div className="">
         <p className="font-normal text-xl text-[#4361EE]">CHECKOUT OUR NEW</p>
 
