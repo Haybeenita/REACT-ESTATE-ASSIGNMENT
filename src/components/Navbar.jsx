@@ -35,7 +35,7 @@ const TopNavbar = () => {
 
 const BottomNavbar = () => {
   return (
-    <section className="flex items-center justify-center bg-white sticky top-0 z-50">
+    <section className="flex items-center justify-center bg-white">
       <nav className="w-full max-w-[90rem] flex px-24 py-4 justify-between">
         <ul className=" text-[#2B2B2B] flex items-center justify-center">
           <li className=" h-9 w-20 items-center justify-center flex text-base font-medium hover:bg-[rgba(67,97,238,0.3)] hover:rounded-full cursor-pointer">
